@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mate SC', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(179, 133, 96, 0.746),rgba(123, 155, 153, 0.746)), url(./ironman.jpg);
+}
+.icon a img{
+    margin: 0 30px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    z-index: 5;
+}
+.links ul{
+    list-style: none;
+    margin: 20px 50px;
+}
+.links ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.carousel-inner div img{
+    width: 100vw;
+    height: 70vh;
+}
+.middle{
+    text-align: center;
+    margin: 200px;
+    font-family: 'Mate SC', serif;
+    mar
+}
+.middle h1{
+    font-weight: 800;
+}
+.middle p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.cont
+{
+    display: flex;
+ /*   border: 2px solid black;*/
+    align-items: center;
+    justify-content: center;
+    background-color: #b9c2f9;
+padding: 40px;
+}
+.cont img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+ .item 
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 300px;
+height: 300px;
+/*border: 2px solid red;*/
+border-radius: 150px;
+margin: 40px;
+background-color: #ffeac4;
+}
+.item:hover
+{
+    transform: scale(1.2);
+   /*box-shadow: offset-x offset-y blur-radius color;*/
+}
+.links button
+{
+    padding: 4px 14px;
+    border 2px solid black;
+    border-radius: 5px;
+     font-size: 17px;
+    font-weight: 700;
+}
+.links button:hover
+{
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    transform: scale(1.1);
+}
+
+.inner-footer
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: black;
+}
+.social-link
+{
+    display: flex;
+   /* border: 2px solid red;*/
+}
+.social-link ul
+{ padding: 10px;
+    width: 300px;
+    /*height: 30px;*/
+    margin: auto;
+    display: flex;
+}
+.social-item
+{
+    list-style: none;
+}
+.social-item a{
+    padding: 10px 20px;
+     font-size: 40px;
+     color: #6cccc6;
+     transition: all .25s;
+
+}
+.social-item a:hover
+{
+    color: #54a39e;
+}
+.quick-links
+{
+    display: flex;
+    width: 410px;
+    height: 70px;
+    margin: auto;
+}
+.quick-links ul
+{
+    display: flex;
+}
+.quick-item
+{
+    list-style: none;
+}
+.quick-item a
+{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: white;
+    transition: all .25;
+
+}
+.quick-item a:hover
+{
+    color: #6cccc6;
+}
+.outer
+{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+}
